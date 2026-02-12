@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - QuickDesk</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+    <div class="container">
+        <button id="logout-button" class="btn btn-secondary" style="float: right;">Logout</button>
+        <h1>My Dashboard</h1>
+        <p>Welcome! Here are the tickets you have submitted.</p>
+        <hr>
+        <a href="/create-ticket/" class="btn btn-primary">Create New Ticket</a>
+        <h2>My Tickets</h2>
+        <div id="ticket-list"><p>Loading tickets...</p></div>
+    </div>
+    <script src="{% static 'js/dashboard.js' %}"></script>
+</body>
+</html>
