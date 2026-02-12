@@ -39,9 +39,9 @@ Built with ❤️ during the Odoo Hackathon by:
 
 Bhupinder Singh - [Backend / API]
 
-Rajat Duhan - Frontend
+Rajat Duhan - [Frontend]
 
-Arshpreet Singh - Tester
+Arshpreet Singh - [Tester]
 
 🔮 Future Improvements
 Integration with Odoo modules for ERP synchronization.
